@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/265/152/1005/nature-sun-sky-landscape-wallpaper-preview.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: au;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-top: 105px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px -10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: solid rgb(202, 41, 231);
+}
+
+.infoWeather {
+  margin-top: 20px;
+}
